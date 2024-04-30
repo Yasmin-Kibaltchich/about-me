@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #bd0683;
+  color: #5c0659;
   font-size: 18px;
   text-align: justify;
   
@@ -46,7 +46,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #da1f92;
+  background: #490326;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -82,7 +82,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #f8d9ee;
+  background: #f3bef3;
   overflow-y: auto;
 }
 
@@ -91,7 +91,7 @@ h6 {
   display: block;
   width: 125px;
   height: 125px;
-  border: 8px solid #ff21b5;
+  border: 8px solid #490326;
 }
 
 #header .profile h1 {
@@ -106,14 +106,14 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #f10aa4;
+  color: #490326;
   text-decoration: none;
 }
 
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ff21b5;
+  background: #490326;
   color: #eed0df;
   opacity: 0,8;
   line-height: 1;
@@ -181,7 +181,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #ee0b88;
+  color: #490326;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -192,7 +192,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #f8d9ee;
+  color: #d14db4;
 }
 
 .nav-menu a:hover,
@@ -200,7 +200,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #ee0b88;
+  color: #490326;
 }
 
 .nav-menu a:hover i,
@@ -220,7 +220,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #f126bf;
+  background-color: #490326;
   color: #f0d0e0;
   width: 40px;
   height: 40px;
@@ -286,7 +286,7 @@ h6 {
   color: #3b0218;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #ee31af;
+  border-bottom: 3px solid #eb42b2;
 }
 
 @media (min-width: 1024px) {
@@ -317,7 +317,7 @@ section {
 }
 
 .section-bg {
-  background: #ec80b6;
+  background: #ffceff;
 }
 
 .section-title {
@@ -330,7 +330,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #c40866;
+  color: #501f4c;
 }
 
 .section-title h2::after {
@@ -339,7 +339,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #f01d86;
+  background: #8a3684;
   bottom: 0;
   left: 0;
 }
@@ -354,7 +354,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 24px;
-  color: #f01d86;
+  color: #720d50;
 }
 
 .about .content ul {
@@ -401,7 +401,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #eed0df;
+  color: #8a3684;
 }
 
 .skills .progress .skill .val {
@@ -410,7 +410,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f19cc7;
+  background: #d6abd2;
   height: 10px;
 }
 
@@ -418,7 +418,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #f01d86;
+  background-color: #c2339b;
 }
 
 /*--------------------------------------------------------------
@@ -482,10 +482,6 @@ section {
   border: 2px solid #f01d86;
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-
 
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -511,88 +507,6 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact {
-  padding-bottom: 130px;
-}
-
-.contact .info {
-  padding: 30px;
-  background: #f77fbb;
-  width: 100%;
-  box-shadow: 0 0 17px 0 #f0057a;
-  border-radius: 30px;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #e70978;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #e69ec2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  box-shadow: 0 0 10px 10px #f057a6;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #e40e79;
-}
-
-.contact .info p {
-  padding: 0 0 10px 60px;
-  margin-bottom: 20px;
-  font-size: 14px;
-  color: #92064c;
-}
-
-.contact .info .email p {
-  padding-top: 5px;
-  color: #92064c;
-}
-
-
-.contact .info .social-links {
-  padding-left: 60px;
-  
-}
-
-.contact .info .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #5a06307e;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  border-radius: 50%;
-  text-align: justify;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  margin-right: 10px;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-
 .imagem{
 
   width: 101%;
@@ -612,7 +526,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #d14db4;
 }
 
 .breadcrumbs h2 {
@@ -636,7 +550,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #f0057a;
+  color: #eb42b2;
   content: "/";
 }
 
@@ -659,14 +573,14 @@ section {
 --------------------------------------------------------------*/
 #footer {
   padding: 15px;
-  color: #f4f6fd;
+  color: #e8cae4;
   font-size: 14px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #eb62a6;
+  background: #a743a0;
 }
 
 #footer .copyright {
